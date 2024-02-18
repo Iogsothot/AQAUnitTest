@@ -98,7 +98,7 @@ public class Bank {
                                         sc.nextLine();
 
                                         if (bank.customerMap.containsKey(username)) {
-                                            Customer payee = bank.customerMap.get(username); //Todo: check
+                                            Customer payee = bank.customerMap.get(username);
                                             payee.deposit(amount);
                                             customer.withdraw(amount);
                                         } else {
